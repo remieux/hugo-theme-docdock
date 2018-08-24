@@ -106,7 +106,7 @@ a:hover {
 }
 
 #body .nav:hover {
-  background: #f8f9fa;
+  background: rgba(239, 239, 240, 0.5);
 }
 
 table {
