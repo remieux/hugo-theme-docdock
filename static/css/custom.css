@@ -37,11 +37,20 @@ h4 {
 #header-wrapper,
 #sidebar ul.topics > li.parent,
 #sidebar ul.topics > li.active {
-  background-color: #00a7ff;
+  color: #000;
+  background-color: #dae0e3;
 }
 
 #sidebar {
   font-size: 100%;
+}
+
+#sidebar a {
+  color: #000;
+}
+
+#sidebar a:hover {
+  color: #000;
 }
 
 #header-wrapper,
@@ -49,11 +58,74 @@ h4 {
   border-bottom: none;
 }
 
+#header {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
 #sidebar ul li .category-icon {
-  color: #fff;
+  color: #000;
 }
 
 #sidebar .parent li,
 #sidebar .active li {
   border-left: none;
+}
+
+a {
+  color: #00a7ff;
+}
+
+a:hover {
+  color: #027abb;
+}
+
+#sidebar ul li div a {
+  color: #000 !important;
+  width: calc(100% - 30px);
+}
+
+#sidebar ul li.active > div > a,
+#sidebar ul li.active > div > a:hover {
+  color: #000 !important;
+  background: transparent;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  font-weight: 600;
+}
+
+.searchbox {
+  background-color: #696969;
+  border: none;
+  border-radius: 0;
+}
+
+#top-bar {
+  background: #efeff0;
+}
+
+#body .nav:hover {
+  background: #f8f9fa;
+}
+
+table {
+  font-size: 13px;
+  border: none;
+}
+
+th {
+  background: #f8f9fa;
+  border-right: 1px solid #fff;
+}
+
+td {
+  border-top: 1px solid #efeff0;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+.footline {
+  border-top: none;
 }
