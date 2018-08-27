@@ -62,16 +62,17 @@ h4 {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  text-align: left;
 }
 
 #header p:before {
   content: "";
   display: block;
+  width: 122px;
   height: 35px;
   background-image: url("/images/aidon.svg");
   background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
 #sidebar ul li .category-icon {
@@ -102,11 +103,38 @@ a:hover {
   background: transparent;
   padding-left: 0rem;
   padding-right: 0rem;
-  font-weight: 600;
+}
+#sidebar ul li > div {
+  padding-left: 1em;
+}
+
+#sidebar ul li.active > div {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+#sidebar ul.topics {
+  margin-left: 0;
+}
+
+#sidebar ul li li {
+  padding-left: 0;
+  text-indent: 0;
+}
+
+#sidebar ul li li > div {
+  padding-left: 2em;
+}
+
+#sidebar ul.topics ul {
+  padding-bottom: 0;
+}
+
+#sidebar li[data-nav-id="/"] {
+  margin-left: 1em;
 }
 
 .searchbox {
-  background-color: #696969;
+  background-color: rgba(105, 105, 105, 0.6);
   border: none;
   border-radius: 0;
 }
