@@ -64,6 +64,16 @@ h4 {
   font-weight: 600;
 }
 
+#header p:before {
+  content: "";
+  display: block;
+  height: 35px;
+  background-image: url("/images/aidon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 24px;
+}
+
 #sidebar ul li .category-icon {
   color: #000;
 }
@@ -124,6 +134,10 @@ td {
   border-right: none;
   border-bottom: none;
   border-left: none;
+}
+
+tr:hover {
+  background: #f8f9fa;
 }
 
 .footline {
